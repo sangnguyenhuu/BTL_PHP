@@ -1,0 +1,51 @@
+        /* Áp dụng CSS cho form */
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        /* Áp dụng CSS cho table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Áp dụng CSS cho tiêu đề */
+        .tieude_themsp {
+            background-color: #400;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Áp dụng CSS cho các dòng chẵn */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Áp dụng CSS cho các dòng lẻ của bảng */
+        table tr:nth-child(odd) {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        /* Áp dụng CSS cho các ô input và td (cột) */
+        input[type="text"], td {
+            padding: 5px;
+        }
+
+        /* Áp dụng CSS cho nút Submit */
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Áp dụng CSS cho nút Reset */
+        input[type="reset"] {
+            background-color: #f44336;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
